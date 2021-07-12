@@ -25,16 +25,12 @@ hr{
 
 
 /* Header styles */
-.nav-container{
+/* .nav-container{
     background-color: #562EFF;
-    width: 1440px;
+    width: 930px;
     height: 94px;
-    margin-left: 30px;
+    margin-left: 280px;
     border-radius: 20px;
-}
-.nav-item img{
-    width: 40px;
-    padding-left: 50px;
 }
 .nav-item{
     display: flex;
@@ -51,7 +47,7 @@ hr{
     color: #FFFFFF;
     font-size: 16px;
     padding: 14px 16px;
-}
+} */
 /* Top players styles */
 .top-players{
     margin-bottom: 30px;
@@ -163,4 +159,42 @@ footer p{
     text-align: center;
     margin-top: 30px;
     padding-top: 40px;
+}
+
+/*--------- Media Query----------- */
+
+/* Mobile screen */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .nav-list a{
+            width: 100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    footer{
+        width: 100%;
+    }
+    
+}
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px)  {
+    .container{
+        width: 100%;
+    }
+    .players, .courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer{
+        width: 100%;
+    }
+    
 }
