@@ -34,19 +34,16 @@ hr{
 }
 .nav-item{
     display: flex;
-    margin-left: 100px;
-    padding-right: 30px;
+    margin-left: 20px;
 }
 .nav-list{
     list-style: none;
-     padding: 30px; 
-    text-align: center; 
+     padding: 30px;  
 }
 .nav-list a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
-    padding: 24px 26px;
 } 
 /* Top players styles */
 .top-players{
