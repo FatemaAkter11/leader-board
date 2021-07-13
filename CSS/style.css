@@ -170,8 +170,9 @@ footer p{
 /* Mobile screen */
 @media only screen and (max-width:688px) {
     .nav-container{
-        width: 100%;
-        margin: 20px auto;
+        width: 90%;
+        margin: 20px auto; 
+        flex-direction: column-reverse;
     }
     .nav-list a{
         flex-direction: column;
